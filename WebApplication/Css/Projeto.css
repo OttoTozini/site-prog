@@ -1,0 +1,78 @@
+﻿/* PROJETO WEB - ESTRUTURA DA MASTER PAGE */
+
+
+/* CABEÇALHO  */
+.cabecalho {
+    height: 81px;
+    width: 100%;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logomarca {
+    position: absolute;
+    top: -10;
+    left: 0;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+
+.barra-titulo {
+    position: absolute;
+    top: -10;
+    left: 81px;
+    right: 1050px;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: -50px;
+    font-family: 'Cascadia Code';
+    font-style: italic;
+    font-size: 12px;
+    color: #2672bd;
+    background-color: white;
+}
+
+.barra-menu {
+    position: absolute;
+    left: 450px;
+    right: 0;
+    top: -10;
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 10px;
+    text-align: left;
+    background-color: white;
+    border-left: 1px solid #d2d2d2;
+}
+
+    .barra-menu a {
+        color: #333333;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 4px;
+        padding-bottom: 2px;
+        text-decoration: none;
+        font-family: 'Cascadia Code'
+    }
+
+        .barra-menu a:hover {
+            color: black;
+            border-bottom: 3px solid black;
+        }
+
+
+.conteudo {
+    min-height: 800px;
+}
+
+.rodape {
+    height: 150px;
+    background-color: #dbdbdb;
+    position: absolute;
+    width: 100%;
+}

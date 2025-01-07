@@ -1,0 +1,18 @@
+07/11/2024 11:48:26
+Caixa de correio não disponível. A resposta do servidor foi: Access denied - Invalid HELO name (See RFC2821 4.1.1.1)
+System
+   em System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   em System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   em System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em WebApplication.FaleConosco.Enviar_Click(Object sender, EventArgs e) na C:\Users\0040482411019\Documents\WebApplication\WebApplication\FaleConosco.aspx.cs:linha 56
+-----------------------------------
+07/11/2024 11:58:36
+Caixa de correio não disponível. A resposta do servidor foi: Access denied - Invalid HELO name (See RFC2821 4.1.1.1)
+System
+   em System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   em System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   em System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em WebApplication.FaleConosco.Enviar_Click(Object sender, EventArgs e) na C:\Users\0040482411019\Documents\WebApplication\WebApplication\FaleConosco.aspx.cs:linha 56
+-----------------------------------
